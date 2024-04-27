@@ -1,0 +1,104 @@
+@import "main.css";
+.contenedor-formulario {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Center text within the form container */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .fila-formulario {
+    display: flex; /* Use flexbox for each row */
+    margin-bottom: 15px; /* Add space between rows */
+  }
+  
+  .fila-formulario label {
+    width: 30%; /* Adjust label width as needed */
+    margin-right: 10px; /* Space between label and input */
+    text-align: right; /* Align labels to the right */
+  }
+  
+  .fila-formulario input,
+  .fila-formulario select {
+    width: 60%; /* Adjust input width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Add space above the button */
+  }
+  
+  .contenedor-formulario {
+    width: 350px; /* Adjust width as needed */
+  }
+  
+  .fila-formulario input {
+    width: 100%; /* Make inputs span the full width */
+  }
+
+
+  /* footer */
+  .contenedor-footer {
+    width: 100%;
+    background-color: #e1bb21;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Center the entire footer content */
+  }
+  
+  .contenedor-footer table {
+    width: 100%; /* Maintain table width */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Keep margin below the table */
+  }
+  
+  .contenedor-footer td {
+    vertical-align: top;
+    padding: 10px;
+  }
+  
+  .contenedor-footer h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .contenedor-footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contenedor-footer li {
+    margin-bottom: 5px;
+  }
+  
+  .contenedor-footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contenedor-footer .seccion-derechos {
+    text-align: center; /* Keep copyright section centered */
+    margin-top: 20px; /* Keep margin above copyright section */
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e1bb21 /* Set your desired footer background color */;
+  }
+  

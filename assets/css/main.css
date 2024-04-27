@@ -1,0 +1,256 @@
+
+/* Tipografía */
+.contenedor-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Colores */
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #e1bb21;
+    color: #fff;
+  }
+  
+  nav {
+    background-color: #eee;
+  }
+  
+  footer {
+    background-color: #e1bb21;
+    color: #fff;
+  }
+  
+ /* logo */
+
+  
+  .logo {
+    width: 100px; 
+    height: 50px; 
+    margin-right: 20px; 
+  }
+
+
+
+  /* Imágenes */
+  .logo-nombre {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nombre-pagina {
+    margin-left: 20px;
+  }
+  
+  
+  /* Fondo */
+  body {
+    background-image: "assets/css/main.css";
+    background-repeat: repeat;
+  }
+  
+  /* head */
+  header {
+    padding: 20px;
+  }
+  
+  header .logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  header form {
+    margin-top: 10px;
+  }
+  
+  header input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  header button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Barra de navegación */
+  nav {
+    padding: 15px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+
+
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .busqueda-acciones {
+    display: flex; /* Wrap search bar and actions */
+    justify-content: flex-end; /* Align to the right */
+    flex-grow: 1; /* Allow search bar to grow */
+    margin-left: 20px; /* Add space between logo and search bar */
+  }
+  
+  .acciones-usuario {
+    display: flex; /* Arrange buttons horizontally */
+    justify-content: flex-end; /* Align to the right */
+    margin-left: 20px; /* Space between search bar and buttons */
+  }
+  
+  .boton-usuario {
+    display: flex;
+    align-items: center;    
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #e1bb21; /* Add background color */
+    margin-left: 30px; /* Space between buttons */
+  }
+  
+  .boton-usuario i {
+    font-size: 40px; /* Adjust icon size as needed */
+    margin-right: 15px; /* Space between icon and text */
+  }
+  
+  /* Add additional margin between icons: */
+  .boton-usuario + .boton-usuario {
+    margin-left: 20px; /* Increase margin between buttons */
+  }
+
+  .icon-usuario {
+    width: 40px; /* Adjust icon width */
+    height: 40px; /* Adjust icon height */
+    margin-right: 5px; /* Space between icon and text */
+  }
+  
+
+  /* Contenido principal */
+  .musica-nueva {
+    padding: 20
+  }
+
+  .contenedor-footer {
+    width: 100%;
+    background-color: #e1bb21;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Center the entire footer content */
+  }
+  
+  .contenedor-footer table {
+    width: 100%; /* Maintain table width */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Keep margin below the table */
+  }
+  
+  .contenedor-footer td {
+    vertical-align: top;
+    padding: 10px;
+  }
+  
+  .contenedor-footer h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .contenedor-footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contenedor-footer li {
+    margin-bottom: 5px;
+  }
+  
+  .contenedor-footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contenedor-footer .seccion-derechos {
+    text-align: center; /* Keep copyright section centered */
+    margin-top: 20px; /* Keep margin above copyright section */
+  }
+
+  .musica-destacada {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .musica-destacada table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .musica-destacada th,
+  .musica-destacada td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .musica-destacada th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .musica-destacada img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+
+/* Estilos para la tabla de música */
+.tabla-musica {
+  width: 10%; /* Ajusta el ancho de la tabla */
+  border-collapse: collapse; /* Elimina los bordes entre las celdas */
+}
+
+.celda-imagen, .celda-datos {
+  border: 1px solid #ccc; /* Agrega un borde a cada celda */
+  padding: 8px; /* Agrega espacio de relleno a las celdas */
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.celda-imagen img {
+  max-width: 10%; /* Ajusta el ancho de la imagen al ancho de la celda */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
